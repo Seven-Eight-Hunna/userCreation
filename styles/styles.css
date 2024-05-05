@@ -1,0 +1,178 @@
+* {
+  margin: ;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 20px;
+  background-color: rgba(22, 22, 22, 1);
+}
+
+.container {
+  display: flex;
+}
+.main {
+  display: flex;
+  background-color: rgba(22, 22, 22, 1);
+  width: 1280px;
+  height: 421px;
+  color: white;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.forms__first {
+  border: 0.5px solid grey;
+  border-radius: 4px;
+  width: 652px;
+  background-color: rgba(22, 22, 22, 1);
+  padding-top: 31px;
+  padding-bottom: 31px;
+  padding-left: 25px;
+}
+
+.input__name {
+  width: 602px;
+  height: 47px;
+  margin-top: 22px;
+  text-indent: 12px;
+  background-color: rgba(43, 43, 43, 1);
+  border-radius: 4px;
+  border: 0px;
+}
+
+.id__project {
+  margin-top: 22px;
+  width: 602px;
+  height: 47px;
+  background-color: rgba(22, 22, 22, 1);
+  border-radius: 5px;
+  text-indent: 12px;
+  border: 1px solid grey;
+}
+
+div select {
+  height: 47px;
+  width: 290px;
+}
+
+.select {
+  display: flex;
+  width: 602px;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+
+.date {
+  width: 602px;
+  height: 47px;
+  margin-top: 22px;
+  text-indent: 12px;
+  background-color: rgba(43, 43, 43, 1);
+  border-radius: 4px;
+  border: 0px;
+}
+
+.button__developer {
+  width: 214px;
+  height: 39px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgba(221, 123, 98, 1);
+  color: white;
+  border: 0px;
+}
+
+.button__addproject {
+  width: 169px;
+  height: 39px;
+  background-color: rgba(221, 123, 98, 1);
+  color: white;
+  font-size: 16px;
+  border: 0px;
+}
+
+.button {
+  margin-top: 22px;
+  width: 602px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project__type {
+  background-color: rgba(43, 43, 43, 1);
+  border-radius: 4px;
+  border: 0px;
+  color: rgba(86, 86, 86, 1);
+  text-indent: 12px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.price__type {
+  background-color: rgba(43, 43, 43, 1);
+  border-radius: 4px;
+  border: 0px;
+  color: rgba(86, 86, 86, 1);
+  text-indent: 12px;
+}
+
+.second__form {
+  margin-left: 40px;
+  width: 588px;
+  height: 421;
+  padding-top: 31px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding-left: 25px;
+}
+
+.input__namedeveloper {
+  width: 538px;
+  height: 47px;
+  margin-top: 22px;
+  text-indent: 12px;
+  background-color: rgba(43, 43, 43, 1);
+  border-radius: 4px;
+  border: 0px;
+}
+
+.id__projectdeveloper {
+  margin-top: 22px;
+  width: 538px;
+  height: 47px;
+  background-color: rgba(22, 22, 22, 1);
+  border-radius: 5px;
+  text-indent: 12px;
+  border: 1px solid grey;
+}
+
+.raza__type {
+  background-color: rgba(43, 43, 43, 1);
+  border-radius: 4px;
+  border: 0px;
+  color: rgba(86, 86, 86, 1);
+  text-indent: 12px;
+  margin-top: 22px;
+  width: 538px;
+}
+
+.status__type {
+  background-color: rgba(43, 43, 43, 1);
+  border-radius: 4px;
+  border: 0px;
+  color: rgba(86, 86, 86, 1);
+  text-indent: 12px;
+  margin-top: 22px;
+  width: 538px;
+}
+
+.create__developer {
+  width: 201px;
+  height: 39px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgba(221, 123, 98, 1);
+  color: white;
+  border: 0px;
+  margin-top: 22px;
+}

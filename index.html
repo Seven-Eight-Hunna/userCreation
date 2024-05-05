@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <form action="log" class="forms__first">
+          <label for="name">Создать Проект</label>
+          <input
+            type="text"
+            id="name"
+            class="input__name"
+            placeholder="Название Проекта"
+          />
+          <style>
+            .id__project::placeholder {
+              color: white;
+              font-size: 16px;
+            }
+          </style>
+          <input
+            type="text"
+            id="name"
+            class="id__project"
+            placeholder="ID Проекта"
+          />
+          <div class="select">
+            <select name="projecttype" class="project__type" id="type-select">
+              <option value="">Тип Проекта</option>
+              <option value="1">Type 1</option>
+              <option value="2">Type 2</option>
+              <option value="3">Type 3</option>
+              <option value="4">Type 4</option>
+            </select>
+            <select
+              name="priceprojecttype"
+              class="price__type"
+              id="price-type-select"
+            >
+              <option value="">Ценовой Тип Проекта</option>
+              <option value="1">Type 1</option>
+              <option value="2">Type 2</option>
+              <option value="3">Type 3</option>
+              <option value="4">Type 4</option>
+            </select>
+          </div>
+          <div>
+            <input type="text" id="date" class="date" placeholder="Дата"
+          </div>
+          <div class="button">
+            <button class="button__developer">Добавить Разработчика +</button>
+            <button class="button__addproject">Создать Проект   +</button>
+          </div>
+        </form>
+      </div>
+      <div class="container">
+        <form action="" class="second__form">
+          <label for="name">Создать Разработчика</label>
+          <input
+            type="text"
+            id="name"
+            class="input__namedeveloper"
+            placeholder="Имя Разработчика"
+          />
+          <style>
+            .id__projectdeveloper::placeholder {
+              color: white;
+              font-size: 16px;
+            }
+          </style>
+          <input
+            type="text"
+            id="name"
+            class="id__projectdeveloper"
+            placeholder="ID Разработчика"
+          />
+          <select name="razatype" class="raza__type" id="raza-type-select">
+            <option value="">Раса</option>
+            <option value="1">Type 1</option>
+            <option value="2">Type 2</option>
+            <option value="3">Type 3</option>
+            <option value="4">Type 4</option>
+          </select>
+          <select name="statustype" class="status__type" id="status-type-select">
+            <option value="">Статус</option>
+            <option value="1">Type 1</option>
+            <option value="2">Type 2</option>
+            <option value="3">Type 3</option>
+            <option value="4">Type 4</option>
+          </select>
+             <button class="create__developer">Создать Разработчика +</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
